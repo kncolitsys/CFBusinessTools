@@ -1,0 +1,28 @@
+* { padding: 0em; margin: 0em; }
+
+body { font-family: Arial, sans-serif; font-size: 11pt; color: #000; }
+.page{ width:976px; margin:0 auto; }
+
+.clearFloat{clear:both;}
+.clearLeft{clear:left;}
+.clearRight{clear:left;}
+
+form { 	font-family: Arial, sans-serif; font-size: 10pt; color: #666; }
+
+.field{ float:left; margin:5px; color:#333; }
+.field label{ margin-right:3px; text-align:right; font-weight:bold; }
+.field.required label{ color:#900; }
+.field.optional label{ color:#090; }
+.field label.first{ width:100px; display:inline-block; }
+.field label.firstedu{ width:40px; display:inline-block; }
+.field input.textInput{ width:125px; }
+.field input.textInput.long {width:375px; }
+.field input.textInput.medium{ width:225px; }
+.field input.textInput.tiny{ width:25px; }
+.field input.textInput.date{ width:75px; }
+
+fieldset{ margin-top:15px; padding:10px; border:1px solid #CCC; }
+legend { font-weight:bold; margin-left: 5px; }
+
+a { text-decoration: none; }
+a:hover	{ text-decoration: underline; }
